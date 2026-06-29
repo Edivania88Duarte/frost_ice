@@ -34,12 +34,12 @@ export default function Nav() {
       >
         <a
           href="#topo"
-          aria-label="Frost Ice — página inicial"
+          aria-label="Frost Ice, página inicial"
           style={{ display: 'flex', alignItems: 'center' }}
         >
           <img
             src="/frost-ice-logo.png"
-            alt="Frost Ice — Gelo em cubos para drinks"
+            alt="Frost Ice, gelo em cubos para drinks"
             width="1536"
             height="1024"
             style={{ height: 56, width: 'auto', display: 'block' }}

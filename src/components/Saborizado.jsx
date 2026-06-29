@@ -46,7 +46,7 @@ export default function Saborizado() {
             </span>
             <img
               src="/saborizado.jpg"
-              alt="Linha de gelo saborizado Frost Ice — 6 sabores de 190g"
+              alt="Linha de gelo saborizado Frost Ice com 6 sabores de 190g"
               width="1280"
               height="853"
               loading="lazy"
@@ -80,7 +80,7 @@ export default function Saborizado() {
             </h2>
             <p style={{ fontSize: 17, lineHeight: 1.6, color: '#44556e', margin: '18px 0 0' }}>
               Sachês de <strong style={{ color: '#14325d' }}>190g</strong> em 6 sabores de fruta. É
-              só bater ou misturar: caipirinha, drink e refresco com sabor de verdade, na hora, sem
+              só bater ou misturar: caipirinha, drink e refresco com sabor de verdade — na hora, sem
               perder tempo no balcão.
             </p>
 

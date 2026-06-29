@@ -1,5 +1,6 @@
 import { links } from '../data';
 import { WhatsAppIcon } from './icons';
+import IceFall from './IceFall';
 
 const stats = [
   { value: '100%', label: 'Água pura e filtrada' },
@@ -17,9 +18,12 @@ export default function Hero() {
         overflow: 'hidden',
       }}
     >
+      <IceFall />
       <div
         className="fi-hero-grid"
         style={{
+          position: 'relative',
+          zIndex: 2,
           maxWidth: 1200,
           margin: '0 auto',
           padding: '70px 28px 80px',

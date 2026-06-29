@@ -41,8 +41,9 @@ export default function Atendimento() {
             Suzano e toda a região do Alto Tietê.
           </h2>
           <p style={{ fontSize: 17, lineHeight: 1.6, color: '#c4d0e2', margin: '18px 0 0' }}>
-            Estamos no Centro de Suzano. Entregamos nas cidades vizinhas e, em casos especiais,
-            atendemos pedidos de maior volume fora da região — é só confirmar no WhatsApp.
+            Estamos no Centro de Suzano e entregamos nas cidades vizinhas. Em casos especiais,
+            atendemos pedidos de maior volume fora da região. É só confirmar a sua cidade no
+            WhatsApp.
           </p>
           <a
             href={links.waPedido}

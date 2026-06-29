@@ -126,7 +126,7 @@ export default function Produtos() {
                 margin: '22px 0 8px',
               }}
             >
-              Saco 5kg — cubos para drinks
+              Saco de 5kg com cubos para drinks
             </h3>
             <p style={{ fontSize: 15, lineHeight: 1.55, color: '#c4d0e2', margin: '0 0 22px' }}>
               Embalagem prática com alça. Cubo transparente, ideal para drinks, refrigerantes e

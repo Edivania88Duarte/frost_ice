@@ -46,8 +46,8 @@ export default function ComoPedir() {
             Do pedido ao gelo no balcão em 3 passos.
           </h2>
           <p style={{ fontSize: 17, color: '#5a6b80', margin: '16px 0 0' }}>
-            Entrega na região <strong style={{ color: '#14325d' }}>ou</strong> retirada no local —
-            você escolhe.
+            Você escolhe: <strong style={{ color: '#14325d' }}>entrega</strong> na sua região ou{' '}
+            <strong style={{ color: '#14325d' }}>retirada</strong> no local.
           </p>
         </div>
         <div

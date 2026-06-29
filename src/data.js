@@ -5,11 +5,11 @@ export const config = {
   mostrarBotaoFlutuante: true,
   endereco: {
     linha1: 'Travessa Guaio, 246 — Centro',
-    linha2: 'Suzano / SP — CEP 08674-150',
+    linha2: 'Suzano / SP, CEP 08674-150',
   },
   horario: {
-    semana: 'Segunda a sexta — 09h00 às 18h00',
-    sabado: 'Sábado — 09h00 às 13h00',
+    semana: 'Segunda a sexta — das 09h às 18h',
+    sabado: 'Sábados — das 09h às 13h',
   },
   mapaSrc:
     'https://maps.google.com/maps?q=Travessa%20Guaio%2C%20246%2C%20Suzano%2C%20Centro%2C%20SP%2C%2008674-150&t=&z=15&ie=UTF8&iwloc=&output=embed',
@@ -61,7 +61,7 @@ export const sabores = [
 export const faqs = [
   {
     q: 'Vocês entregam? Em quais cidades?',
-    a: 'Sim. Entregamos em Suzano e em toda a região do Alto Tietê. Pedidos maiores podem ser atendidos fora da região — confirme sua localidade no WhatsApp.',
+    a: 'Sim. Entregamos em Suzano e em toda a região do Alto Tietê. Pedidos maiores também podem ser atendidos fora da região. Confirme a sua localidade no WhatsApp.',
   },
   {
     q: 'Tem pedido mínimo?',
@@ -69,7 +69,7 @@ export const faqs = [
   },
   {
     q: 'Posso retirar no local?',
-    a: 'Pode! Você retira direto na nossa unidade na Travessa Guaio, 246 — Centro, Suzano, dentro do horário de funcionamento.',
+    a: 'Pode! Você retira direto na nossa unidade na Travessa Guaio, 246, Centro, Suzano, dentro do horário de funcionamento.',
   },
   {
     q: 'Qual o prazo de entrega?',
@@ -77,7 +77,7 @@ export const faqs = [
   },
   {
     q: 'O gelo é próprio para consumo?',
-    a: 'Sim. Nosso gelo é produzido com água filtrada e tratada — 100% puro, transparente e sem impurezas, ideal para drinks e bebidas.',
+    a: 'Sim. Nosso gelo é produzido com água filtrada e tratada. É 100% puro, transparente e sem impurezas, ideal para drinks e bebidas.',
   },
   {
     q: 'Quais as formas de pagamento?',

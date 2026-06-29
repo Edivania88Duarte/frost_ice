@@ -149,9 +149,9 @@ export default function Footer() {
               {config.telefoneExibicao}
             </a>
             <span>
-              Seg a sex: 09h–18h
+              Seg a sex — das 09h às 18h
               <br />
-              Sábado: 09h–13h
+              Sábados — das 09h às 13h
             </span>
             <a
               href={config.comoChegar}
