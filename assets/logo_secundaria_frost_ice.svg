@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 360" role="img" aria-label="Logo secundária Frost Ice">
+  <defs>
+    <style>.navy{fill:#0A1E3A}.stroke{fill:none;stroke:#0A1E3A;stroke-width:12;stroke-linecap:round;stroke-linejoin:round}.thin{fill:none;stroke:#0A1E3A;stroke-width:8;stroke-linecap:round}.brand{font-family:'Bebas Neue','Anton','Arial Narrow',Arial,sans-serif;font-weight:900;letter-spacing:12px}.sub{font-family:'Montserrat','Arial',sans-serif;font-weight:800;letter-spacing:10px}.small{font-family:'Montserrat','Arial',sans-serif;font-weight:800;letter-spacing:5px}</style>
+  </defs>
+  <g transform="translate(70 40) scale(.62)">
+    <path class="stroke" d="M170 28l86 49v99l-86 50-86-50v-99z"/>
+    <path class="stroke" d="M170 28v99m86-50l-86 50-86-50"/>
+    <path class="stroke" d="M60 190l86 49v99l-86 50-86-50v-99z"/>
+    <path class="stroke" d="M60 190v99m86-50l-86 50-86-50"/>
+    <path class="stroke" d="M255 190l96 23 47 88-50 82-98-21-48-88z"/>
+    <path class="stroke" d="M255 190l-53 84m149-61l-52 86m49 84l-49-84-97-25"/>
+    <path class="thin" d="M-40 430h105m74 0h86m76 0h106"/>
+    <path class="thin" d="M57 470h60m145 0h62"/>
+  </g>
+  <text x="375" y="145" class="brand navy" font-size="96">FROST</text>
+  <g transform="translate(382 190)"><path class="thin" d="M0 0h95"/><text x="185" y="30" text-anchor="middle" class="sub navy" font-size="52">ICE</text><path class="thin" d="M275 0h95"/></g>
+  <text x="820" y="142" class="small navy" font-size="26">GELO EM CUBOS</text>
+  <text x="820" y="180" class="small navy" font-size="26">PARA DRINKS</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 798 632" width="798" height="632" role="img" aria-label="Frost Ice logo">
+  <defs>
+    <style>
+      .navy{fill:#001f4f;stroke:#001f4f;}
+      .line{fill:none;stroke:#001f4f;stroke-width:7.2;stroke-linecap:round;stroke-linejoin:round;}
+      .thin{fill:none;stroke:#001f4f;stroke-width:6.5;stroke-linecap:round;stroke-linejoin:round;}
+      .word{font-family:'Arial Black','Impact','Montserrat ExtraBold',sans-serif;font-weight:900;fill:#001f4f;letter-spacing:5px;}
+      .sub{font-family:'Arial Black','Impact','Montserrat ExtraBold',sans-serif;font-weight:900;fill:#001f4f;letter-spacing:42px;}
+    </style>
+  </defs>
+
+  <!-- fundo branco como no modelo -->
+  <rect width="100%" height="100%" fill="#ffffff"/>
+
+  <!-- cubo superior -->
+  <g class="line">
+    <polygon points="387,52 459,87 459,158 389,192 318,157 318,87"/>
+    <polyline points="318,87 389,124 459,87"/>
+    <line x1="389" y1="124" x2="389" y2="192"/>
+  </g>
+
+  <!-- cubo inferior esquerdo -->
+  <g class="line">
+    <polygon points="320,158 390,193 390,278 320,313 249,278 249,193"/>
+    <polyline points="249,193 320,230 390,193"/>
+    <line x1="320" y1="230" x2="320" y2="313"/>
+  </g>
+
+  <!-- cubo direito inclinado -->
+  <g class="line">
+    <polygon points="438,149 526,164 560,230 520,306 430,291 397,226"/>
+    <polyline points="397,226 488,241 526,164"/>
+    <line x1="488" y1="241" x2="520" y2="306"/>
+  </g>
+
+  <!-- linhas pequenas abaixo dos cubos -->
+  <g class="thin">
+    <line x1="214" y1="310" x2="276" y2="310"/>
+    <line x1="267" y1="334" x2="333" y2="334"/>
+    <line x1="409" y1="310" x2="470" y2="310"/>
+    <line x1="368" y1="334" x2="436" y2="334"/>
+    <line x1="544" y1="310" x2="579" y2="310"/>
+    <line x1="484" y1="334" x2="544" y2="334"/>
+  </g>
+
+  <!-- texto principal -->
+  <text x="54" y="503" class="word" font-size="188" transform="scale(1,0.96) translate(0,21)">FROST</text>
+
+  <!-- composição inferior ICE com linhas laterais -->
+  <g class="navy">
+    <rect x="57" y="559" width="181" height="10" rx="2"/>
+    <rect x="555" y="559" width="184" height="10" rx="2"/>
+  </g>
+  <text x="276" y="594" class="sub" font-size="84">ICE</text>
+</svg>

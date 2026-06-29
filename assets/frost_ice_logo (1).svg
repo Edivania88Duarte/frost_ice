@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1254 1254" width="1254" height="1254">
+  <defs>
+    <style>
+      .navy{fill:#001F4D;stroke:#001F4D}
+      .line{fill:none;stroke:#001F4D;stroke-width:16;stroke-linecap:round;stroke-linejoin:round}
+      .cube{fill:none;stroke:#001F4D;stroke-width:16;stroke-linecap:round;stroke-linejoin:round}
+      .brand{fill:#001F4D;font-family:'Montserrat','Gotham','Arial Black','Impact',sans-serif;font-weight:900;text-anchor:middle}
+      .tag{fill:#001F4D;font-family:'Montserrat','Gotham','Arial Black','Arial',sans-serif;font-weight:900;text-anchor:middle;letter-spacing:30px}
+    </style>
+  </defs>
+
+  <!-- Cubos de gelo -->
+  <g id="ice-cubes">
+    <!-- Cubo superior -->
+    <path class="cube" d="M608 102 L718 156 L608 214 L498 156 Z"/>
+    <path class="cube" d="M498 156 L498 275 L608 331 L608 214"/>
+    <path class="cube" d="M718 156 L718 275 L608 331"/>
+
+    <!-- Cubo inferior esquerdo -->
+    <path class="cube" d="M391 326 L505 270 L617 326 L505 383 Z"/>
+    <path class="cube" d="M391 326 L391 457 L505 516 L505 383"/>
+    <path class="cube" d="M617 326 L617 457 L505 516"/>
+
+    <!-- Cubo inclinado direito -->
+    <path class="cube" d="M684 257 L827 278 L777 389 L630 365 Z"/>
+    <path class="cube" d="M827 278 L878 382 L813 493 L777 389"/>
+    <path class="cube" d="M630 365 L682 469 L813 493 L777 389"/>
+  </g>
+
+  <!-- linhas abaixo dos cubos -->
+  <g id="ice-lines">
+    <path class="line" d="M338 503 H432"/>
+    <path class="line" d="M420 541 H523"/>
+    <path class="line" d="M640 503 H736"/>
+    <path class="line" d="M575 541 H684"/>
+    <path class="line" d="M849 503 H904"/>
+    <path class="line" d="M756 541 H850"/>
+  </g>
+
+  <!-- Nome principal -->
+  <text class="brand" x="627" y="803" font-size="293" letter-spacing="18">FROST</text>
+
+  <!-- ICE e linhas laterais -->
+  <g id="ice-word">
+    <path class="line" d="M98 897 H366" stroke-width="18"/>
+    <path class="line" d="M873 897 H1154" stroke-width="18"/>
+    <text class="brand" x="627" y="944" font-size="137" letter-spacing="57">ICE</text>
+  </g>
+
+  <!-- Descrição -->
+  <text class="tag" x="627" y="1046" font-size="69">GELO EM CUBOS</text>
+  <text class="tag" x="627" y="1127" font-size="69">PARA DRINKS</text>
+</svg>

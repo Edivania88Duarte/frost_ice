@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="575" height="470" viewBox="0 0 575 470" role="img" aria-label="Frost Ice logo">
+  <defs>
+    <style>
+      .navy{fill:#001f49;}
+      .stroke{fill:none;stroke:#001f49;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;}
+      .thin{fill:none;stroke:#001f49;stroke-width:4.5;stroke-linecap:round;stroke-linejoin:round;}
+      .txt{font-family:'Arial Black','Montserrat ExtraBold','Gotham Black',Impact,sans-serif;font-weight:900;letter-spacing:7px;fill:#001f49;}
+      .ice{font-family:'Arial Black','Montserrat ExtraBold','Gotham Black',Impact,sans-serif;font-weight:900;letter-spacing:28px;fill:#001f49;}
+    </style>
+  </defs>
+
+  <!-- transparent background -->
+
+  <!-- top ice cube -->
+  <g id="ice-cubes" class="stroke">
+    <path d="M228 66 L282 37 L337 66 L282 96 Z"/>
+    <path d="M228 66 L228 122 L282 152 L282 96 Z"/>
+    <path d="M337 66 L337 122 L282 152 L282 96 Z"/>
+    <path d="M228 122 L282 152 L337 122"/>
+
+    <!-- left/front ice cube -->
+    <path d="M180 150 L235 120 L291 150 L235 179 Z"/>
+    <path d="M180 150 L180 216 L235 244 L235 179 Z"/>
+    <path d="M291 150 L291 216 L235 244 L235 179 Z"/>
+    <path d="M180 216 L235 244 L291 216"/>
+
+    <!-- right ice cube tilted -->
+    <path d="M320 116 L390 129 L417 178 L350 166 Z"/>
+    <path d="M320 116 L294 177 L350 232 L350 166 Z"/>
+    <path d="M390 129 L417 178 L389 231 L350 166 Z"/>
+    <path d="M294 177 L350 232 L389 231"/>
+  </g>
+
+  <!-- small ground strokes below cubes -->
+  <g class="thin">
+    <path d="M153 238 L200 238"/>
+    <path d="M191 258 L246 258"/>
+    <path d="M277 257 L330 257"/>
+    <path d="M307 238 L351 238"/>
+    <path d="M366 257 L406 257"/>
+    <path d="M404 238 L430 238"/>
+  </g>
+
+  <!-- main wordmark -->
+  <text x="287" y="382" text-anchor="middle" class="txt" font-size="136" transform="scale(1.03,1) translate(-8,0)">FROST</text>
+
+  <!-- bottom ICE with horizontal strokes -->
+  <g class="navy">
+    <rect x="48" y="422" width="130" height="8" rx="1"/>
+    <rect x="407" y="422" width="130" height="8" rx="1"/>
+  </g>
+  <text x="287" y="448" text-anchor="middle" class="ice" font-size="60">ICE</text>
+</svg>
