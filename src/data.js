@@ -65,7 +65,7 @@ export const faqs = [
   },
   {
     q: 'Tem pedido mínimo?',
-    a: 'O pedido mínimo varia conforme a cidade e o tipo de cliente (varejo, evento ou atacado). Fale com a gente no WhatsApp que combinamos a melhor condição.',
+    a: 'O pedido mínimo varia conforme a cidade e o tipo de cliente (varejo, evento ou atacado). Fale conosco no WhatsApp que combinamos a melhor condição.',
   },
   {
     q: 'Posso retirar no local?',
