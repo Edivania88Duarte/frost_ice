@@ -166,7 +166,7 @@ export default function Produtos() {
           <ProdutoCard
             Icon={BoxIcon}
             titulo="Atacado e revenda"
-            texto="Fornecimento recorrente para mercados, adegas, postos e conveniências com preço de atacado."
+            texto="Fornecimento recorrente para mercados, adegas, postos e conveniências com valores especiais."
             cta="Falar com atacado"
             href={links.waOrcamento}
           />
