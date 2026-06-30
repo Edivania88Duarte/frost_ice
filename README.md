@@ -53,3 +53,35 @@ Quase todo o conteúdo editável está em `src/data.js`:
 - `config.telefoneExibicao`, `config.endereco`, `config.horario`, `config.mapaSrc`
 - `config.instagramUrl` e `config.mostrarBotaoFlutuante`
 - listas `segmentos`, `cidades`, `sabores` e `faqs`
+
+## SEO (indexação no Google)
+
+O SEO já está configurado: meta tags, Open Graph/Twitter (preview no WhatsApp), dados
+estruturados de negócio local (JSON-LD `Store`), `robots.txt` e `sitemap.xml`.
+
+### Único ajuste obrigatório: o domínio
+
+Antes de publicar no domínio definitivo, troque todas as ocorrências de
+`https://www.frostice.com.br` pelo seu domínio real (sem barra no final) nestes arquivos:
+
+- `index.html` (canonical, Open Graph, Twitter e o bloco JSON-LD)
+- `public/robots.txt`
+- `public/sitemap.xml`
+
+Em preview da Vercel dá para deixar o placeholder; o site indexa, só os previews de
+compartilhamento e a URL canônica que ficam apontando para o domínio final.
+
+### Depois de publicar
+
+1. Acesse o [Google Search Console](https://search.google.com/search-console) e adicione a
+   propriedade do seu domínio.
+2. Envie o sitemap: `https://seu-dominio/sitemap.xml`.
+3. Use "Inspeção de URL" → "Solicitar indexação" para a página inicial.
+4. (Opcional) Valide os dados estruturados no
+   [Teste de Resultados Aprimorados](https://search.google.com/test/rich-results).
+
+### Imagem de compartilhamento (og:image)
+
+Hoje o preview usa `/saco-5kg.jpg`. Se quiser um card mais bonito no WhatsApp/Facebook,
+crie uma imagem 1200×630 px, coloque em `public/` e atualize as tags `og:image` e
+`twitter:image` no `index.html`.

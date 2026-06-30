@@ -4,14 +4,113 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/isotipo_frost_ice.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Gelo em cubos 100% puro para drinks e bebidas. A Frost Ice entrega em Suzano e em toda a região do Alto Tietê." />
-    <title>Frost Ice | Gelo em cubos cristalino</title>
+
+    <!--
+      SEO: ao publicar no domínio final, troque TODAS as ocorrências de
+      https://www.frostice.com.br pelo seu domínio real (sem barra no fim).
+      Os mesmos endereços também aparecem em public/robots.txt e public/sitemap.xml.
+    -->
+
+    <title>Frost Ice | Gelo em cubos puro em Suzano e região</title>
+    <meta
+      name="description"
+      content="Gelo em cubos 100% puro para drinks e bebidas. A Frost Ice entrega em Suzano e em toda a região do Alto Tietê, com retirada no local. Peça pelo WhatsApp."
+    />
+    <link rel="canonical" href="https://www.frostice.com.br/" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="author" content="Frost Ice" />
+    <meta name="theme-color" content="#14325d" />
+
+    <!-- Geo (SEO local) — ajuste as coordenadas se quiser maior precisão -->
+    <meta name="geo.region" content="BR-SP" />
+    <meta name="geo.placename" content="Suzano, São Paulo" />
+    <meta name="geo.position" content="-23.5423;-46.3109" />
+    <meta name="ICBM" content="-23.5423, -46.3109" />
+
+    <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Frost Ice" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Frost Ice | Gelo em cubos puro em Suzano e região" />
+    <meta
+      property="og:description"
+      content="Gelo em cubos 100% puro para drinks e bebidas. Entrega em Suzano e região do Alto Tietê, com retirada no local. Peça pelo WhatsApp."
+    />
+    <meta property="og:url" content="https://www.frostice.com.br/" />
+    <meta property="og:image" content="https://www.frostice.com.br/saco-5kg.jpg" />
+    <meta property="og:image:alt" content="Saco de gelo Frost Ice de 5kg com cubos cristalinos" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Frost Ice | Gelo em cubos puro em Suzano e região" />
+    <meta
+      name="twitter:description"
+      content="Gelo em cubos 100% puro para drinks e bebidas. Entrega em Suzano e região, com retirada no local. Peça pelo WhatsApp."
+    />
+    <meta name="twitter:image" content="https://www.frostice.com.br/saco-5kg.jpg" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Work+Sans:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Dados estruturados: negócio local (rich results no Google) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Store",
+        "name": "Frost Ice",
+        "description": "Fábrica de gelo em cubos 100% puro para drinks e bebidas. Entrega em Suzano e região do Alto Tietê, com retirada no local.",
+        "image": "https://www.frostice.com.br/saco-5kg.jpg",
+        "logo": "https://www.frostice.com.br/frost-ice-logo.png",
+        "@id": "https://www.frostice.com.br/",
+        "url": "https://www.frostice.com.br/",
+        "telephone": "+5511939447590",
+        "priceRange": "$$",
+        "currenciesAccepted": "BRL",
+        "paymentAccepted": "Pix, Cartão, Dinheiro",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Travessa Guaio, 246, Centro",
+          "addressLocality": "Suzano",
+          "addressRegion": "SP",
+          "postalCode": "08674-150",
+          "addressCountry": "BR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -23.5423,
+          "longitude": -46.3109
+        },
+        "hasMap": "https://www.google.com/maps/dir/?api=1&destination=Travessa%20Guaio%2C%20246%2C%20Suzano%2C%20Centro%2C%20SP%2C%2008674-150",
+        "areaServed": [
+          { "@type": "City", "name": "Suzano" },
+          { "@type": "City", "name": "Mogi das Cruzes" },
+          { "@type": "City", "name": "Poá" },
+          { "@type": "City", "name": "Ferraz de Vasconcelos" },
+          { "@type": "City", "name": "Itaquaquecetuba" },
+          { "@type": "City", "name": "Arujá" },
+          { "@type": "City", "name": "Guararema" },
+          { "@type": "City", "name": "Biritiba Mirim" }
+        ],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "18:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "09:00",
+            "closes": "13:00"
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
