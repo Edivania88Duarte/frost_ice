@@ -36,12 +36,15 @@ export default function Footer() {
               fontSize: 15,
               lineHeight: 1.6,
               color: '#9fb1cc',
-              maxWidth: 320,
+              maxWidth: 380,
               margin: '18px 0 0',
             }}
           >
-            Gelo em cubos 100% puro para drinks e bebidas. Qualidade que você confia. Indústria
-            brasileira.
+            Gelo em cubos 100% puro para drinks e bebidas.
+            <br />
+            Qualidade que você confia.
+            <br />
+            Indústria brasileira.
           </p>
           <div style={{ display: 'flex', gap: 12, marginTop: 22 }}>
             <a
