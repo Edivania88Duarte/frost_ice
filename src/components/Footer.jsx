@@ -24,35 +24,13 @@ export default function Footer() {
         }}
       >
         <div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-            <span
-              style={{
-                width: 40,
-                height: 40,
-                borderRadius: 9,
-                background: '#fff',
-                color: '#14325d',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontFamily: "'Montserrat', sans-serif",
-                fontWeight: 900,
-                fontSize: 20,
-              }}
-            >
-              F
-            </span>
-            <span
-              style={{
-                fontFamily: "'Montserrat', sans-serif",
-                fontWeight: 800,
-                fontSize: 19,
-                letterSpacing: '0.04em',
-              }}
-            >
-              FROST<span style={{ color: '#8fa6c6' }}> ICE</span>
-            </span>
-          </div>
+          <img
+            src="/frost-ice-logo-branco.png"
+            alt="Frost Ice"
+            width="1024"
+            height="1024"
+            style={{ height: 132, width: 'auto', display: 'block' }}
+          />
           <p
             style={{
               fontSize: 15,

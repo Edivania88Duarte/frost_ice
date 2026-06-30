@@ -3,9 +3,9 @@ import { WhatsAppIcon } from './icons';
 import IceFall from './IceFall';
 
 const stats = [
-  { value: '100%', label: 'Água pura e filtrada' },
+  { value: '100%', label: 'Água filtrada' },
   { value: '5 kg', label: 'Embalagem prática' },
-  { value: 'Entrega + retirada', label: 'Indústria brasileira' },
+  { value: 'Suzano e região', label: 'Entrega e retirada' },
 ];
 
 export default function Hero() {
@@ -64,8 +64,8 @@ export default function Hero() {
               margin: '22px 0 0',
             }}
           >
-            Gelo em cubos cristalino, entregue{' '}
-            <span style={{ color: '#14325d' }}>firme e gelado</span> no seu balcão.
+            Gelo cristalino em cubos, na hora que{' '}
+            <span style={{ color: '#14325d' }}>seu negócio não pode parar</span>.
           </h1>
           <p
             style={{
@@ -76,8 +76,8 @@ export default function Hero() {
               margin: '22px 0 0',
             }}
           >
-            Cubo transparente que derrete devagar e não agua a bebida. Fornecimento sob medida para
-            bares, restaurantes, adegas, mercados, eventos e muito mais.
+            Produção com água 100% filtrada, cubo que derrete devagar e rende mais. Entrega em
+            Suzano e região ou retirada no local.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 14, marginTop: 34 }}>
             <a

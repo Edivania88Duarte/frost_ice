@@ -38,11 +38,11 @@ export default function Nav() {
           style={{ display: 'flex', alignItems: 'center' }}
         >
           <img
-            src="/frost-ice-logo.png"
+            src="/frost-ice-logo-completo.png"
             alt="Frost Ice, gelo em cubos para drinks"
-            width="1536"
+            width="1024"
             height="1024"
-            style={{ height: 56, width: 'auto', display: 'block' }}
+            style={{ height: 64, width: 'auto', display: 'block' }}
           />
         </a>
         <nav
